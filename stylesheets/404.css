@@ -1,0 +1,46 @@
+* {
+            text-align:center;
+        }
+        h1 {
+            font-family:Verdana, Geneva, sans-serif;
+            font-size: 200px;
+            line-height: 200px;
+            color:#8b0000;
+        }
+        h2 {
+            font-family:Verdana, Geneva, sans-serif;
+            line-height:0;
+            font-size:30px;
+            color:#0e3375;
+        }
+        h3 {
+            font-family:Verdana, Geneva, sans-serif;
+            color:#03681d;
+        }
+        h4 {
+            font-family:Verdana, Geneva, sans-serif;
+            color:#222222;
+        }
+        h5 {
+            font-family:Verdana, Geneva, sans-serif;
+        }
+        a:link {
+            color:green;
+            background-color:transparent;
+            text-decoration:none
+        }
+        a:visited {
+            color:blue;
+            background-color:transparent;
+            text-decoration:none
+        }
+        a:hover {
+            color:red;
+            background-color:transparent;
+            text-decoration:underline
+        }
+        a:active {
+            color:yellow;
+            background-color:transparent;
+            text-decoration:underline
+        }
