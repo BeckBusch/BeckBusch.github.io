@@ -1,1 +1,2 @@
-
+#circle { transition: color 2s;}
+#circle :hover {color: red;}
