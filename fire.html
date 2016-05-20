@@ -3,42 +3,28 @@
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/fire.css">
     <style>
-        div {
-            position:relative;
-        }
-        .audio-inner {
-            position:absolute;
-            top:0;
-            left:0;
-        }
-        #audio-controls {
-            background:white;
-            z-index:1;
-        }
-        #audio-placeholder {
-            width:300px;
-            height:20px;
-            padding-top:10px;
-            text-align:center;
-            z-index:0;
-        }
+        div{position:relative;}
+.audio-inner{position:absolute;top:0;left:0;}
+#audio-controls{background:white;z-index:1;}
+#audio-placeholder{width:300px;height:20px;padding-top:10px;text-align:center;z-index:0;}
     </style>
 </head>
 
 <body>
 
 
-        <script src="fire.js"></script>
-        <div id="audio-container">
-            <div id="audio-controls" class="audio-inner">
-                <audio controls>
-                    <source src="resources/fire_sound.mp3" type="audio/mpeg">Your browser does not support the audio element.
-                </audio>
-            </div>
-            <div id="audio-placeholder" class="audio-inner">Hover here for controls
-            </div>
-        </div>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<div id="audio-container">
+  <div id="audio-controls" class="audio-inner">
+    <audio controls>
+      <source src="resources/fire_sound.mp3" type="audio/mpeg">
+       Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div id="audio-placeholder" class="audio-inner">
+     Hover here for controls
+  </div>
+</div>
 
     <water>
         <div class="fire">
