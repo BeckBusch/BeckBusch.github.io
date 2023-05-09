@@ -1,0 +1,44 @@
+#blurb {
+    padding-left: 1em;
+    padding-right: 1em;
+    /* background-color: var(--colorAccent); */
+    display: flex;
+}
+
+
+#contents {
+    display: flex;
+}
+
+#contents div h2 {
+    padding-left: 1em;
+}
+
+#repos {
+    flex: 18;
+    /* background-color: var(--colorContent); */
+}
+
+#resources {
+    flex: 12;
+    /* background-color: var(--colorAccent); */
+}
+
+#stuff {
+    flex: 10;
+    flex-direction: column;
+    /* background-color: var(--colorContent); */
+}
+
+#stuff div {
+    display: inline-flex;
+}
+
+#contents div div ul {
+    margin-top: 0px;
+}
+
+.descript {
+    float:right;
+    background-color: #c9c8c8;
+}

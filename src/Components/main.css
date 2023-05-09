@@ -1,0 +1,44 @@
+:root {
+    /* 01368c 01368c 448aff 3f51b5 a3e7fc*/
+    --colorBG: #d9d9d9;
+    --colorHeader: #024dc6;
+    --colorContent: #005cf1;
+    --colorAccent: #2374ff;
+    --colorHighlight: #448aff;
+}
+
+body {
+    margin:0px;
+    background-color: var(--colorBG);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row_flex_container {
+    display: flexbox;
+    flex-direction: row;
+}
+
+#header {
+    background-color: var(--colorHeader);
+}
+
+#header h1 {
+    margin-block-start: 0px;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#navigation {
+    padding-left: 1em;
+    display: inline-flexbox;
+}
+
+#navigation .navItem {
+    display: inline-flex;
+    padding: 1em;
+    text-align: center;
+}
+
+#navigation .navItem:hover {
+    background-color: var(--colorHighlight);
+}
